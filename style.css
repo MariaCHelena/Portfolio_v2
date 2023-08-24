@@ -537,6 +537,10 @@ footer > span{
     padding: 0 2rem;
 }
 
+.curriculo-buttons > a{
+    scale: 1.2;
+}
+
 .curriculo{
     height: 120vh;
     width: auto;
