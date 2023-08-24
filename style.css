@@ -318,6 +318,11 @@ body::-webkit-scrollbar-track {
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
 }
+
+.disabled {
+    background-color: #172573;
+    color: #ffffff71;
+}
   
 .project-button:hover {
     transform: translate(-0.05em, -0.05em);
