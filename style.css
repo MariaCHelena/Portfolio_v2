@@ -145,6 +145,7 @@ body::-webkit-scrollbar-track {
 
 .presentation-buttons {
     background: var(--intermediate-contrast);
+    color: white;
     font-family: inherit;
     text-decoration: none;
     padding: 0.6em 1.3em;
@@ -253,7 +254,6 @@ body::-webkit-scrollbar-track {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: ;
 }
 
 .projects-wrapper::-webkit-scrollbar {
@@ -459,4 +459,43 @@ body::-webkit-scrollbar-track {
     width: 100%;
     background-color: black;
     height: 3rem;
+}
+
+/* Contact Me */
+.card-content{
+    display: flex;
+    align-items: center;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    padding: 5%;
+}
+
+.contact-text > div{
+    margin-top: 3em;
+}
+
+#contactme{
+    height: calc(100vh - 2.8em);
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+    width: 100vw;
+    background-color: #010326;
+    justify-content: space-evenly;
+}
+
+footer > span{
+    font-weight: 500;
 }
