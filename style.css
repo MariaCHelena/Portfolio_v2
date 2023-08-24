@@ -253,12 +253,12 @@ body::-webkit-scrollbar-track {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: ;
 }
 
 .projects-wrapper::-webkit-scrollbar {
     width: 10px;
-    height: 8px;
+    height: 10px;
 }
 
 .projects-wrapper::-webkit-scrollbar-thumb {
@@ -271,7 +271,7 @@ body::-webkit-scrollbar-track {
 }
 
 .project-section{
-flex-direction: column;
+    flex-direction: column;
 }
 
 .project-card{
@@ -291,13 +291,18 @@ flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.2) 0 8px 8px -2px;
 }
 
+.project-card > h3{
+    font-size: 18px;
+}
+
 .project-card > p{
-    padding: 0 1.5rem 1rem;
+    padding: 1rem 1.5rem 1rem;
 }
 
 .project-img{
     width: 80%;
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     object-fit: cover;
     background: linear-gradient(180deg, rgba(253,248,211,1) 0%, rgba(229,163,177,1) 100%);
 }
@@ -328,6 +333,8 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    justify-self: flex-end;
 }
 
 /* Education */
@@ -350,6 +357,88 @@ flex-direction: column;
     border: 1rem solid var(--white);
     height: 400px;
     object-fit: cover;
+}
+
+.education-sec{
+    border-left: 5px solid var(--contrast-color);
+    padding-left: 1em;
+}
+
+.education-sec:nth-child(2){
+    margin: 2em 0;
+}
+
+.education-sec-title{
+    font-size: 18px;
+    
+    
+}
+
+.education-sec > p{
+    margin: 1rem 0;
+}
+
+.education-sec > span{
+    color: var(--contrast-color);
+    font-weight: 550;
+}
+
+.lang-box-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    margin-top: 1em;
+}
+
+.lang-box:nth-child(2){
+    margin: 0 1rem;
+}
+
+.lang-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 10rem;
+    height: 4rem;
+    background-color: #062644;
+}
+
+.lang-box > span{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.progress-bar{
+    display: flex;
+    width: 85%;
+    height: 14px;
+    margin: auto 0;
+    color: white;
+    background-color: white;
+}
+
+.ing, .fra, .jap{
+    font-size: 12px;
+    padding-left: 2px;
+    display: block;
+    
+    height: 100%;
+    background-color: var(--intermediate-contrast);
+}
+
+.ing{
+    width: 75%;
+}
+
+.fra{
+    width: 30%;
+}
+
+.jap{
+    width: 20%;
 }
 
 .foto-orc{
