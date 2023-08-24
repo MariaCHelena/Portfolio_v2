@@ -76,6 +76,10 @@ main::-webkit-scrollbar-thumb {
     padding-left: 8%;
 }
 
+.header-logo > img{
+    height: 45px;
+}
+
 .header-hooks{
     display: flex;
     align-items: center;
