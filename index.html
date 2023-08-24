@@ -12,6 +12,8 @@
 
     <!-- Ícones -->
     <script src="https://kit.fontawesome.com/b8158c0067.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
 
     <!-- Logo -->
     <link rel="icon" type="imagex/png" href="assets/icon.png">
@@ -26,6 +28,7 @@
             <li class="header-list-element"><a href="#skills" class="header-link">skills</a></li>
             <li class="header-list-element"><a href="#projects" class="header-link">projects</a></li>
             <li class="header-list-element"><a href="#education" class="header-link">education</a></li>
+            <li class="header-list-element"><a href="#contactme" class="header-link">contact me!</a></li>
         </ul>
     </header>
     <main class="main">
@@ -54,31 +57,37 @@
         </section>
         <section id="skills" class="site-section">
             <div>
-                <h2 class="skills-title">Skills que eu adquiri ao longo de meus estudos</h2>
+                <h2 class="section-title">Hard Skills</h2>
                 <div class="skill-list">
-                    <ul>
-                        <li>
-                            <h4>HTML/CSS</h4>
+                    <ul class="skill-list-wrapper">
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">HTML/CSS</h4>
+                            <div class="icons-wrapper"><i class="devicon-html5-plain skills-icons"></i> <i class="devicon-css3-plain skills-icons"></i> <i class="devicon-bootstrap-plain skills-icons"></i> <i class="devicon-tailwindcss-plain skills-icons"></i></div>
                             <span>Possuo grande conhecimento prático de html e css puros, além também de saber utilizar frameworks de css como o <b>Bootstrap</b> e o <b>TailwindCSS</b></span>
                         </li>
-                        <li>
-                            <h4>JavaScript</h4>
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">JavaScript</h4>
+                            <div class="icons-wrapper"><i class="devicon-javascript-plain skills-icons"></i> <i class="devicon-react-original skills-icons"></i> <i class="devicon-nodejs-plain skills-icons"></i></div>
                             <span>Já realizei diversos projetos utilizando <b>Vanilla JavaScript</b>, bem como frameworks de JavaScript como o <b>React</b> e o <b>ReactNative</b></span>
                         </li>
-                        <li>
-                            <h4>Java</h4>
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">Java</h4>
+                            <div class="icons-wrapper"><i class="devicon-java-plain skills-icons"> <i class="devicon-spring-plain skills-icons"></i></i></div>
                             <span>Atualmente estou estudando e me aperfeiçoando em ferramentas de back-end, sendo a linguagem que eu escolhi o <b>Java</b>. Já realizei alguns projetos com o Java, fazendo requisições de CRUD, integrados a um banco de dados relacional.</span>
                         </li>
-                        <li>
-                            <h4>Banco de Dados Relacional</h4>
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">Banco de Dados Relacional</h4>
+                            <div class="icons-wrapper"><i class="devicon-mysql-plain skills-icons"></i> <i class="devicon-sqlite-plain skills-icons"></i></div>
                             <span>Durante meu desenvolvimento de um sistema de CRUD com Java, realizei a integração do meu sistema com um banco de dados <b>MySQL</b>. Possuo conhecimento prático em <b>SQL</b>, sendo uma área que atualmente estou focando meus estudos de programação.</span>
                         </li>
-                        <li>
-                            <h4>Banco de Dados não Relacional</h4>
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">Banco de Dados não Relacional</h4>
+                            <div class="icons-wrapper"><i class="devicon-mongodb-plain skills-icons"></i></div>
                             <span>De modo a realizar criação e requisições em APIs, utilizo o <b>MongoDB</b> e <b>Mongoose</b></span>
                         </li>
-                        <li>
-                            <h4>Python</h4>
+                        <li class="skill-list-element">
+                            <h4 class="skill-list-title">Python</h4>
+                            <div class="icons-wrapper"><i class="devicon-python-plain skills-icons"></i></div>
                             <span>Possuo conhecimento prático em automação de tarefas e análise de dados em Python, me utilizando da biblioteca <b>Pandas</b> e criando dashboards com a biblioteca <b>Plotly</b>.</span>
                         </li>
                     </ul>
@@ -145,21 +154,41 @@
             </div>
         </section>
         <section id="education" class="site-section">
-            <div class="card card-config">
-                <div class="card-content">
-                    <h2>Cursos e minhas skills</h2>
+            <h2 class="section-title">Minha formação</h2>
+            <div class="section-wrapper">
+                <div class="education-text">
                     <div>
                         <h3>Formação</h3>
+                        <p>Estou no terceiro semestre de Engenharia de Software da UnB. Até o momento tive a oportunidade de aprender muito desenvolvimento desoftware e explorar diversas áreas da programação.</p>
+                        <span>2022/02 ~ 2027/12</span>
                     </div>
                     <div>
-                        <h3>Cursos</h3>
+                        <h3>Idiomas</h3>
+                        <span>Inglês</span>
+                        <div class="progress-bar"></div>
+                        <span>Francês</span>
+                        <div class="progress-bar"></div>
+                        <span>Japonês</span>
+                        <div class="progress-bar"></div>
                     </div>
                     <div>
-                        <h3>Soft Skills</h3>
+                        <h3>Orc'Estra</h3>
+                        <p>Sou assessora de projetos da Orc'Estra Gamificação, empresa júnior de Engenharia de Software da UnB, e <b>primeira</b> empresa júnior de gamificação do Brasil!</p>
+                        <span>2023/01 ~ até o momento</span>
                     </div>
-                    <div>
-                        <h3>Hard Skills</h3>
+                </div>
+                <div class="foto-orc">
+                    <div class="polaroid">
+                        <img src="assets/foto_empresa.png" alt="Foto minha, junto com os membros da Orc'Estra" class="education-img">
+                        <span>Família Orc ♥</span>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactme" class="site-section">
+            <div class="card card-config">
+                <div class="card-content">
+                    <h2>Gostaria de entrar em contato comigo?</h2>
                 </div>
             </div>
         </section>
