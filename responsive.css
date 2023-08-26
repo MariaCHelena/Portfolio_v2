@@ -10,7 +10,7 @@
   }
 
   .header-hooks{
-    flex-wrap: wrap;
+    display: none;
   }
 
   .header-logo{
@@ -159,7 +159,8 @@
   }
 
   section{
-    margin-bottom: 70px;
+    height: calc(100vh);
+    margin-bottom: 1em;
     padding-top: 1em;
   }
 }
