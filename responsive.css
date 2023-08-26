@@ -60,5 +60,65 @@
     font-size: 18px;
   }
 
- 
+  #skills{
+    height: auto;
+  }
+
+  .skill-list{
+    width: 80%;
+  }
+
+  .skill-list-wrapper{
+    grid-template-columns: 1fr;
+  }
+
+  .skill-list-element > span{
+    font-size: 14px;
+  }
+
+  .skills-icons{
+    font-size: 14px;
+  }
+
+  .github-achievments > img{
+    width: 320px;
+    height: auto;
+  }
+
+  .project-card{
+    width: 100%;
+  }
+  
+  #education{
+    height: auto;
+  }
+
+  .section-wrapper{
+    flex-direction: column;
+  }
+
+  .education-text{
+    width: 60%;
+    padding-left: 0;
+  }
+
+  .foto-orc{
+    width: 340px;
+    margin-top: 2rem;
+  }
+
+  .education-img{
+    height: auto;
+    width: 100%;
+  }
+  
+  .gif-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gif-cat{
+    width: 90%;
+  }
 }
