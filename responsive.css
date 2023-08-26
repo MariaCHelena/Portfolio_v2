@@ -18,13 +18,14 @@
   }
 
   #about{
-    display: block;
+    display: flex;
     padding-top: 2em;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .card{
     width: 100%;
-    height: auto;
     padding: 0 0 20px 0;
   }
 
@@ -32,7 +33,6 @@
     padding: 1.5em;
     flex-direction: column;
     justify-content: center;
-    height: auto;
     width: auto;
   }
 
@@ -59,7 +59,7 @@
 
   .text-presentation > div > p{
     margin: 1em 0;
-    font-size: 14px;
+    font-size: 80%;
   }
 
   .about-picture-sec{
@@ -96,7 +96,7 @@
   }
 
   .github-achievments > img{
-    width: 300px;
+    width: 100%;
     height: auto;
   }
 
