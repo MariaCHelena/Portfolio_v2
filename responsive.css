@@ -168,4 +168,9 @@
     margin-bottom: 1em;
     padding-top: 1em;
   }
+
+  .curriculo{
+    width: 90%;
+    height: auto;
+  }
 }
