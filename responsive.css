@@ -17,6 +17,11 @@
     padding: 0;
   }
 
+  #about{
+    display: block;
+    padding-top: 2em;
+  }
+
   .card{
     width: 100%;
     height: 65%;
@@ -32,6 +37,11 @@
 
   .presentation{
     font-size: 20px;
+  }
+
+  .section-title{
+    font-size: 20px;
+    margin-bottom: 1em;
   }
 
   .selfie-pic{
@@ -81,8 +91,12 @@
   }
 
   .github-achievments > img{
-    width: 320px;
+    width: 300px;
     height: auto;
+  }
+
+  .github-achievments{
+    margin-top: 1em;
   }
 
   .project-card{
@@ -111,6 +125,19 @@
     height: auto;
     width: 100%;
   }
+
+  #contactme{
+    height: calc(100vh - 140px);
+    margin: 0;
+  }
+
+  .contact > div{
+    height: 80%;
+  }
+
+  .contact > div > div{
+    height: 100%;
+  }
   
   .gif-container{
     display: flex;
@@ -119,6 +146,20 @@
   }
 
   .gif-cat{
-    width: 90%;
+    display: none;
+  }
+  footer span{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  footer span, footer span a{
+    font-size: 9px;
+  }
+
+  section{
+    margin-bottom: 70px;
+    padding-top: 1em;
   }
 }

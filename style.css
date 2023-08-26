@@ -500,7 +500,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 #contactme{
-    height: calc(100vh - 2.8em);
+    height: calc(100vh - 70px - 2.8em);
 }
 
 /* Footer */
