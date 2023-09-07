@@ -174,3 +174,39 @@
     height: auto;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1472px) {
+  /*About me*/
+  .presentation{
+    font-size: auto;
+  }
+
+  .text-presentation > div > p{
+    margin: 1.5rem 0;
+  }
+
+  .about-picture-sec{
+    margin: 0 0 1rem 10%;
+  }
+
+  /*Card*/
+  .card{
+    width: auto;
+  }
+  
+  /*Skills*/
+  #skills{
+    height: auto;
+  }
+
+  .skill-list{
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1472px){
+  /*Card*/
+  .card{
+    width: 1200px;
+  }
+}
