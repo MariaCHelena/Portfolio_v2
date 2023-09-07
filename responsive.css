@@ -175,6 +175,20 @@
   }
 }
 
+@media (min-width: 800px) and (max-width: 930px){
+  /*Navbar*/
+  .header-hooks{
+    display: none;
+  }
+  .header{
+    align-items: center;
+    justify-content: center;
+  }
+  .header-logo {
+    padding-left: 0;
+}
+}
+
 @media (min-width: 800px) and (max-width: 1472px) {
   /*About me*/
   .presentation{
