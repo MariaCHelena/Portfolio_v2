@@ -33,12 +33,12 @@ body {
     background-color: var(--main-bg-color);
 }
 
-main::-webkit-scrollbar {
+.main::-webkit-scrollbar {
     width: 8px;
     height: 10px;
 }
 
-main::-webkit-scrollbar-thumb {
+.main::-webkit-scrollbar-thumb {
     background: var(--intermediate-contrast);
     border-radius: 10px;
 }
@@ -194,7 +194,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .card-config{
-    padding: 50px 0 0 50px;
+    padding: 30px 0 0 30px;
     background: url(assets/assets-card-end.png);
     background-position: 0% 5%;
 }
@@ -269,17 +269,17 @@ main::-webkit-scrollbar-thumb {
 }
 
 .projects-wrapper::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 5px;      
+    height: 10px;      /* width of the entire scrollbar */
 }
-
-.projects-wrapper::-webkit-scrollbar-thumb {
-    background: var(--contrast-color);
-    border-radius: 10px;
-}
-
+  
 .projects-wrapper::-webkit-scrollbar-track {
-    background: transparent;
+    background: transparent;        /* color of the tracking area */
+}
+  
+.projects-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--medium-color);
+    border-radius: 15px;
 }
 
 .project-section{
@@ -292,8 +292,8 @@ main::-webkit-scrollbar-thumb {
     flex-shrink: 0;
     margin-right: 3rem;
     margin-bottom: 1rem;
-    background-color: #032940;
-    width: calc(100%/3 - 3rem);
+    background-color: var(--white);
+    width: calc(90%/3 - 3rem);
     height: 500px;
     display: flex;
     align-items: center;
@@ -320,7 +320,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .project-button {
-    background: var(--intermediate-contrast);
+    background: var(--contrast-color);
     font-family: inherit;
     text-decoration: none;
     padding: 0.6em 1.3em;
@@ -472,9 +472,9 @@ main::-webkit-scrollbar-thumb {
 }
 
 .polaroid > span{
-    color: white;
+    color: var(--black);
     width: 100%;
-    background-color: black;
+    background-color: var(--white);
     height: 3rem;
 }
 
