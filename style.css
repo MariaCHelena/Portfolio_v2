@@ -212,7 +212,7 @@ body {
     height: 600px;
     border-radius: 20px;
     padding: 0 0 30px 30px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: #06264433 0 15px 30px -5px;
     background: url(assets/assets-card-end.png);
     background-repeat: no-repeat;
     background-attachment: local;
@@ -252,7 +252,7 @@ body {
 }
 
 .skill-list{
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -342,7 +342,6 @@ body {
     margin-top: 2rem;
     margin-bottom: 1rem;
     object-fit: cover;
-    background: linear-gradient(180deg, rgba(253,248,211,1) 0%, rgba(229,163,177,1) 100%);
 }
 
 .project-button {
@@ -443,13 +442,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 
     width: 10rem;
     height: 4rem;
-    background-color: #062644;
+    background-color: var(--bg-color-2);
 }
 
 .lang-box > span{
+    color: var(--white);
+    font-weight: bold;
     font-size: 14px;
     margin-top: 5px;
 }
