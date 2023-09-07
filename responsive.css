@@ -203,6 +203,10 @@
     margin: 0 0 1rem 10%;
   }
 
+  .github-achievments > img{
+    height: 130px;
+  }
+
   /*Card*/
   .card{
     width: auto;
@@ -222,5 +226,9 @@
   /*Card*/
   .card{
     width: 1200px;
+  }
+
+  .github-achievments > img{
+    height: 190px;
   }
 }
