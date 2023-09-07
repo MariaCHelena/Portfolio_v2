@@ -498,10 +498,6 @@ body {
     margin-top: 3em;
 }
 
-#contactme{
-    height: calc(100vh - 70px - 2.8em);
-}
-
 /* Footer */
 
 footer{
