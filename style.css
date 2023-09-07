@@ -61,7 +61,7 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -313,6 +313,7 @@ body {
 }
 
 .project-card{
+    padding: 1em;
     border-radius: 0.8em;
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -323,7 +324,7 @@ body {
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     scroll-snap-align: start;
     box-shadow: rgba(0, 0, 0, 0.2) 0 8px 8px -2px;

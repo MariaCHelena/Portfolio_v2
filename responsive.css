@@ -105,7 +105,22 @@
   }
 
   .project-card{
-    width: 100%;
+    width: 70%;
+    height: 400px;
+    margin-right: 1.5em;
+  }
+
+  .project-card > h3{
+    font-size: 16px;
+    padding: 0 2px;
+  }
+
+  .project-card > p{
+    font-size: 12px;
+  }
+
+  .project-button{
+    font-size: 10px;
   }
   
   #education{
@@ -220,6 +235,11 @@
   .skill-list{
     width: 70%;
   }
+
+  /*Projects*/
+  .project-card{
+    width: calc(70% - 1rem);
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1472px){
@@ -230,5 +250,10 @@
 
   .github-achievments > img{
     height: 190px;
+  }
+
+  /*Projects*/
+  .project-card{
+    width: calc(80%/2 - 1rem);
   }
 }
